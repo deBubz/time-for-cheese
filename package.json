@@ -1,0 +1,23 @@
+{
+  "name": "time-for-cheese",
+  "version": "1.0.0",
+  "description": "UTS techsoc big project",
+  "scripts": {
+    "start": "cd express && node server.js",
+    "install": "sh install_deps.sh",
+    "build": "cd react && npm run build && wait",
+    "dev-react": "cd react && npm run start",
+    "dev-express": "cd express && nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deBubz/time-for-cheese.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deBubz/time-for-cheese/issues"
+  },
+  "homepage": ""
+}
